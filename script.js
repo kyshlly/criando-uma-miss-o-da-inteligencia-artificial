@@ -6,72 +6,71 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Você está caminhando pela cidade e vê um rio extremamente poluído, cheio de plástico e resíduos. Qual sua primeira reação?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Fico indignado e penso em como ajudar a limpar ou conscientizar as pessoas.",
+                afirmacao: "Decidiu agir e começou a pesquisar sobre projetos de limpeza de rios na sua região."
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Acho triste, mas acredito que sozinho não posso fazer muita diferença.",
+                afirmacao: "Apesar da preocupação, sentiu que não tinha ferramentas para mudar a situação sozinho."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Sua escola está organizando uma feira de sustentabilidade. Eles pedem que os alunos apresentem soluções para reduzir o lixo na comunidade. O que você faz?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Proponho um sistema de compostagem na escola para transformar restos de comida em adubo.",
+                afirmacao: "Inspirou outros alunos a repensarem o descarte de resíduos orgânicos."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Sugiro uma campanha para reduzir o uso de plástico descartável nos lanches.",
+                afirmacao: "Conseguiu mobilizar a escola a banir copos e canudos plásticos."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Seu bairro está discutindo a instalação de painéis solares em espaços públicos. Durante o debate, alguém diz: 'Isso é muito caro e não vai mudar nada'. Como você responde?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Concordo que é caro no início, mas explico que a economia a longo prazo e os benefícios ambientais compensam.",
+                afirmacao: "Usou dados para mostrar como a energia solar pode reduzir custos e emissões de carbono."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Sugiro começar com pequenos projetos, como iluminação pública solar, para testar o impacto.",
+                afirmacao: "Mostrou que pequenas mudanças podem levar a transformações maiores."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Você descobre que um parque local pode ser desmatado para construir um shopping. O que você faz?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Organizo um abaixo-assinado e mobilizo a comunidade para protestar contra a construção.",
+                afirmacao: "A pressão popular fez o governo reconsiderar o projeto."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Busco alternativas para apresentar aos desenvolvedores, como um shopping sustentável que preserve parte do parque.",
+                afirmacao: "Mostrou que é possível conciliar desenvolvimento e preservação."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Anos depois, você vê que suas ações inspiraram outras pessoas, mas ainda há muito a ser feito. Qual seu próximo passo?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Crio uma ONG para ampliar projetos de educação ambiental e ações práticas.",
+                afirmacao: "Transformou sua paixão por sustentabilidade em um legado para futuras gerações."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Trabalho com tecnologia para desenvolver soluções inovadoras, como apps que incentivem a reciclagem.",
+                afirmacao: "Uniu inovação e sustentabilidade para criar ferramentas que facilitam a vida verde."
             }
         ]
     },
 ];
-
 
 let atual = 0;
 let perguntaAtual;
@@ -105,7 +104,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Em 2030...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
