@@ -1,1 +1,1 @@
-# criando-uma-miss-o-da-inteligencia-artificial
+# criando-uma-missão-da-inteligencia-artificial
